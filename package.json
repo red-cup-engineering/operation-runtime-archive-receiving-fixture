@@ -1,0 +1,12 @@
+{
+  "name": "operation-runtime-archive-receiving-fixture",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@red-cup-engineering/javascript-node-operation-engineering-services-section": "file:../artifacts/runtime.tgz"
+  },
+  "scripts": {
+    "test": "node --test archive.test.mjs"
+  }
+}
