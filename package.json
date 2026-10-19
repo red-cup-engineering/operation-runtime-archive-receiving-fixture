@@ -8,5 +8,9 @@
   },
   "scripts": {
     "test": "node --test archive.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/operation-runtime-archive-receiving-fixture.git"
   }
 }
