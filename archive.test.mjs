@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { Readable, Writable } from 'node:stream';
-import * as runtime from '@red-cup-engineering/javascript-node-operation-engineering-services-section/operation';
+import * as runtime from '@red-cup-engineering/node-js-function-engineering-services-section/operation';
 test('real archive exports exactly its four native functions', () => {
  assert.deepEqual(Object.keys(runtime).sort(), ['createJavascriptNodeOperation','runJavascriptNodeOperation','runJavascriptNodeOperationCatalog','runJavascriptNodeOperationModule'].sort());
  assert.ok(Object.values(runtime).every(value => typeof value === 'function'));
