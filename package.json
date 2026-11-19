@@ -1,0 +1,18 @@
+{
+  "name": "operation-runtime-archive-receiving-fixture",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@red-cup-engineering/node-js-function-engineering-services-section": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/operation-runtime-archive-receiving-fixture.git"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
